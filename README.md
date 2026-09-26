@@ -6,7 +6,7 @@ El proyecto consiste en un carrito de compras desarrollado con JavaScript, imple
 
 ## 🚀 Demo
 
-Disponible mediante GitHub Pages.
+[Disponible mediante GitHub Pages.](https://cristhianychr.github.io/carrito-compras-js/)
 
 ## 📸 Vista previa
 
