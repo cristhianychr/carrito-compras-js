@@ -2,7 +2,7 @@
 
 Aplicación web interactiva desarrollada como parte del curso **JavaScript Moderno: Guía Definitiva Construye +10 Proyectos**.
 
-El proyecto consiste en un carrito de compras desarrollado con JavaScript, implementando manipulación del DOM, manejo de eventos y gestión dinámica de productos.
+El proyecto consiste en un carrito de compras desarrollado con JavaScript, implementando manipulación del DOM, manejo de eventos y persistencia de información mediante LocalStorage.
 
 ## 🚀 Demo
 
@@ -18,6 +18,7 @@ El proyecto consiste en un carrito de compras desarrollado con JavaScript, imple
 * CSS3
 * JavaScript
 * DOM
+* LocalStorage
 * Git
 * GitHub Pages
 
@@ -28,19 +29,24 @@ El proyecto consiste en un carrito de compras desarrollado con JavaScript, imple
 * Eliminar productos del carrito.
 * Actualizar cantidades.
 * Cálculo dinámico del contenido del carrito.
+* Persistencia del carrito mediante LocalStorage.
 * Interacción con elementos de la interfaz mediante JavaScript.
-* Persistencia del estado del carrito, si corresponde a la implementación del proyecto.
+* Recuperación del carrito almacenado al recargar la página.
+* Actualización dinámica de la interfaz.
 
 ## 🎯 Conceptos de JavaScript aplicados
 
 * Manipulación del DOM.
 * Event Listeners.
 * Funciones.
-* Arrays y métodos de arrays.
+* Arrays.
 * Objetos.
-* Recorrido y modificación de estructuras de datos.
+* Métodos de arrays.
 * Manipulación dinámica del HTML.
 * Manejo de eventos.
+* LocalStorage.
+* Persistencia de información en el navegador.
+* Serialización y deserialización de datos con JSON.
 
 ## 📂 Estructura del proyecto
 
@@ -49,6 +55,8 @@ carrito-compras-js/
 │
 ├── css/
 ├── img/
+│   └── preview.png
+│
 ├── js/
 ├── index.html
 ├── .gitignore
