@@ -15,7 +15,7 @@ El proyecto consiste en un carrito de compras desarrollado con JavaScript, imple
 ## 🛠️ Tecnologías utilizadas
 
 * HTML5
-* CSS3
+* Tailwind CSS
 * JavaScript
 * DOM
 * LocalStorage
