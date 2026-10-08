@@ -25,7 +25,8 @@ function cargarEventListeners() {
     // Vaciar el carrito
     vaciarCarritoBtn.addEventListener('click', () => {
         articulosCarrito = [];
-        limpiarHTML();
+        localStorage.clear();
+        limpiarHTML();        
     });
 
 }
@@ -124,7 +125,7 @@ function sincronizarStorage() {
 // ELimina los curso del tbody
 function limpiarHTML() {
     // Forma lenta
-    contenedorCarrito.innerHTML = '';
+    // contenedorCarrito.innerHTML = '';
 
     // Forma rápida
     while(contenedorCarrito.firstChild) {
